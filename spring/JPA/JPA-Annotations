@@ -3,6 +3,11 @@
 =====================================================================================================
 @Entity
 
+// in the héritage case we have 3 cases:
+@Inheritance (strategy = InheritanceType.SINGLE_TABLE)
+@Inheritance (strategy = InheritanceType.JOINED)
+@Inheritance (strategy = InheritanceType.TABLE_PER_CLASS)
+
 @ Table(
                name = "tablename",
                uniqueConstraints = {
