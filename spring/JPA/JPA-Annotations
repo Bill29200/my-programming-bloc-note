@@ -41,7 +41,9 @@ if id is Long we use
      @JoinColumn(name=".........._id")
  -------------------------
 @OneToMany
-@OneToMany(mappedBy = ".............")
+@OneToMany(mappedBy = ".............", fetch= FetchType.LAZY/EAGER) //
+// LAZY system not load the data of relation
+// EAGER system load relation information
 -------------------------
 @ManyToOne
 @ManyToOne(fetch = FetchType.LAZY)
