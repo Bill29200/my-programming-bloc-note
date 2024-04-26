@@ -1,5 +1,5 @@
-LOMBOK ANOTATIONS
+LOMBOK ANNOTATIONS
 
+=========================================================================
 @NoArgsConstructor  @AllArgsConstructor @Getter @Setter @ToString @Builder
-
 ==========================================================================

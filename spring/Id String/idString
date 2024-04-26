@@ -1,0 +1,8 @@
+HOW TO USE A RANDOM STRING ID
+
+private String id;
+
+At the creation write
+===========================================================================
+id = UUID.randomUUID().toString();
+===========================================================================

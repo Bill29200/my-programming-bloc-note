@@ -1,0 +1,17 @@
+HOW TO USE SWAGGER FOR TESTING AN API
+
+1/ Go to the site  springdoc.org
+2/ search Getting started and copy this dependency
+=======================================================================
+<dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+      <version>2.5.0</version>
+   </dependency>
+ ===============================================================================
+
+ 3/  add the dependency to the pom.xml file of your project
+ 4/ Update the MAVEN project and run it
+
+ 5/ On the browser go to the
+ localhost:8080/swagger-ui.html
