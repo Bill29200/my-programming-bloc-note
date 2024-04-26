@@ -53,6 +53,10 @@ if id is Long we use
             joinColumns = @JoinColumn(name = "......_id"),
             inverseJoinColumns = @JoinColumn(name = ".....2_id"))
 
+
+  // if we need to show the value String of enum not its numeric code we use
+  @Enumerated(EnumType.String)   // at the place of EnumType.ORDINAL
+
 ======================================================================================================================
 2/ REPOSITORY LAYER
 ======================================================================================================================
