@@ -1,0 +1,28 @@
+//------------------
+CREATE A NEW PROJECT
+//-------------------
+ng new nomProject --style=scss --skip-tests=true --routing
+
+//------------------
+ADD MATERIAL
+//------------------
+ng add @angular/material
+
+
+//-------------------
+BOOTSTRAP
+//--------------------
+
+npm install --save bootstrap
+
+npm install --save bootstrap@5.1
+
+//------------------------
+ADD BOOTSTRAP TO angular.json
+//---------------------------
+search "style": [
+add
+
+"node_modules/dist/css/bootstrap.min.css",
+
+//-----------------------------
