@@ -3,6 +3,9 @@ CREATE A NEW PROJECT
 //-------------------
 ng new nomProject --directory=./ --style=scss --skip-tests=true --routing
 
+note  --no-standalone
+for create app.Module.ts and not use standalone
+
 //------------------
 ADD MATERIAL
 //------------------
