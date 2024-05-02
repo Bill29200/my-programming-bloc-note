@@ -1,7 +1,7 @@
 //------------------
 CREATE A NEW PROJECT
 //-------------------
-ng new nomProject --style=scss --skip-tests=true --routing
+ng new nomProject --directory=./ --style=scss --skip-tests=true --routing
 
 //------------------
 ADD MATERIAL
