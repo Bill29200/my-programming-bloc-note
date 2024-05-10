@@ -1,0 +1,3 @@
+ng new angular-routing-project
+
+ng new angular-routing-project --directory=./ --style=scss --skip-tests=true
