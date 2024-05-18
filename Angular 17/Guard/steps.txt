@@ -1,0 +1,11 @@
+1/ generate a new guard with commande
+
+ng g g guards/auth
+
+2/ in app.module.ts add into providers
+
+ providers: [
+    provideAnimationsAsync(),
+    AuthGard
+  ],
+
