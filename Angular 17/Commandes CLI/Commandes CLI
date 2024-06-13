@@ -31,3 +31,5 @@ add
 "node_modules/bootstrap/dist/css/bootstrap.min.css",
 
 //-----------------------------
+NgModel don't forget to add FormModule to appModule
+//-----------------------------
