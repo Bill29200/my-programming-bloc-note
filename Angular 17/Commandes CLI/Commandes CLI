@@ -33,3 +33,7 @@ add
 //-----------------------------
 NgModel don't forget to add FormModule to appModule
 //-----------------------------
+
+
+# Installer Font Awesome pour les icônes
+npm install @fortawesome/fontawesome-free
